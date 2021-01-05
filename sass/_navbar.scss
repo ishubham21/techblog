@@ -1,22 +1,29 @@
-@mixin center {
-    
+.nav-container{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    z-index: 100;
+    animation: moveDown 0.4s 0s ease-in;
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 20px;
-    width: 100%;
     padding: 15px 0;
     // padding: 15px 150px;
     box-shadow: 2px 3px 2px #ddd;
+    font-weight: 300;
 }
 .nav-social{
     font-size: 22px;
-
     span{
-        @include center();
-        flex-direction: column;
-        padding: 0 5px;
-        border-right: 1px solid #ddd;
+        margin: 0 3px;
+    }
+}
+
+@media (max-width: 450px){
+    .nav-social{
+        display: none;
     }
 }

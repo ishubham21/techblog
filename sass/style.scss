@@ -1,4 +1,8 @@
 @import './navbar';
+@import './loader';
+@import './_animations';
+@import './_title';
+
 @font-face{
     font-family: "montserrat";
     src: url("../fonts/Montserrat-Regular.ttf") format("woff2");
@@ -12,7 +16,17 @@ a{
     color: #000!important;
     text-decoration: none!important;
 }
-body{
+body, html{
     font-family: 'Montserrat';
     overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.cover-gap{
+    width: 100%;
+    padding: 30px;
+}
+hr.below-title{
+    width: 80%;
+    background: #ddd;
+    margin: 15px auto;
 }
