@@ -1,0 +1,22 @@
+@mixin center {
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 100%;
+    padding: 15px 0;
+    // padding: 15px 150px;
+    box-shadow: 2px 3px 2px #ddd;
+}
+.nav-social{
+    font-size: 22px;
+
+    span{
+        @include center();
+        flex-direction: column;
+        padding: 0 5px;
+        border-right: 1px solid #ddd;
+    }
+}
