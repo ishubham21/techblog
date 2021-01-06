@@ -1,9 +1,9 @@
 {
-    "name": "Ajmer's Weather",
-    "short_name": "Weather Web App",
+    "name": "Shubham's Tech Blog",
+    "short_name": "Tech Blog",
     "background_color": "#fff",
     "theme_color": "#232323",
-    "description": "IT Services & Solutions.",
+    "description": "Technical blogs at your disposal.",
     "start_url": "index.html",
     "scope": "./",
     "icons": [
