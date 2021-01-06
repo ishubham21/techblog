@@ -1,7 +1,7 @@
-// window.addEventListener('load', () => {
-//     const loader = document.querySelector('.loader')
-//     loader.classList.add('hide-loader')
-// })
+window.addEventListener('load', () => {
+    const loader = document.querySelector('.loader')
+    loader.classList.add('hide-loader')
+})
 
 if ("serviceWorker" in navigator) {
     //regestering service worker
