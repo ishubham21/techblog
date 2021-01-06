@@ -40,3 +40,13 @@ hr.below-title{
 .py-3{
     padding: 2em 0;
 }
+
+@media(max-width: 767px){
+    .text-center{
+        margin: 0 50px!important;
+        line-height: 1.7em;
+        h3{
+            font-size: 16px;
+        }
+    }
+}

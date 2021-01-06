@@ -4,6 +4,7 @@ This website is designed so as to serve two purposes together. This websites aut
 Therefore, just by writing medium blogs I can ensure that my blog is automatically updated without me having to update each and every blog twice via hard-coding.
 
 It is also a web-app which can be downloaded into mobile phones. This is achieved using service-workers.
+
 ## Features
 
 * Ranking 100 in both 'Best Practices' and the 'SEO' by Google's Lighthouse Analytics
