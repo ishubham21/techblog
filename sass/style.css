@@ -259,6 +259,12 @@ nav {
             flex: 0 0 90%;
     width: 90%;
   }
+  h2 {
+    font-size: 15px;
+  }
+  h4 {
+    font-size: 14px;
+  }
 }
 
 @font-face {
@@ -292,5 +298,17 @@ hr.below-title {
   width: 80%;
   background: #ddd;
   margin: 15px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center h3 {
+  font-weight: 300;
+}
+
+.py-3 {
+  padding: 2em 0;
 }
 /*# sourceMappingURL=style.css.map */
