@@ -1,0 +1,14 @@
+.blog-container{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.blog{
+    flex: 0 0 30%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    img{
+        max-width: 100%;
+    }
+}

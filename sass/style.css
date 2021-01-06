@@ -9,6 +9,7 @@
 }
 
 nav {
+  color: #222;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,17 +17,22 @@ nav {
       justify-content: space-around;
   font-size: 20px;
   padding: 15px 0;
-  -webkit-box-shadow: 2px 3px 2px #ddd;
-          box-shadow: 2px 3px 2px #ddd;
+  -webkit-box-shadow: 4px 4px 2px #ddd;
+          box-shadow: 4px 4px 2px #ddd;
   font-weight: 300;
 }
 
 .nav-social {
   font-size: 22px;
+  height: 100%;
 }
 
 .nav-social span {
   margin: 0 3px;
+}
+
+.nav-social span a {
+  color: #444 !important;
 }
 
 @media (max-width: 450px) {
@@ -102,43 +108,43 @@ nav {
 }
 
 .title {
-  font-size: 28px;
+  font-size: 25px;
   text-align: center;
   padding: 40px;
-  -webkit-animation: fadeIn 1s 0s ease-in;
-          animation: fadeIn 1s 0s ease-in;
+  -webkit-animation: fadeIn 1.21s 0s ease-in;
+          animation: fadeIn 1.21s 0s ease-in;
 }
 
 .title span {
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .title span:first-child {
   -webkit-transform: rotate(-90deg) translate(5px, 8px);
           transform: rotate(-90deg) translate(5px, 8px);
-  padding-bottom: 0.2px;
   border-bottom-style: solid;
   border-bottom-width: 0.5px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  padding-bottom: 0.2px;
 }
 
 .title span:nth-child(2) {
-  font-size: 1.8em;
+  font-size: 2em;
   font-weight: 600;
-  text-transform: uppercase;
 }
 
 .title span:last-child {
-  -webkit-transform: rotate(90deg) translate(-5px, 8px);
-          transform: rotate(90deg) translate(-5px, 8px);
-  padding-bottom: 3.5px;
+  -webkit-transform: rotate(90deg) translate(-5px, 12px);
+          transform: rotate(90deg) translate(-5px, 12px);
   border-bottom-style: solid;
   border-bottom-width: 0.5px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  padding-bottom: 0.2px;
 }
 
 @media (max-width: 600px) {
@@ -151,6 +157,30 @@ nav {
   .title {
     font-size: 16px;
   }
+}
+
+.blog-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 50px;
+}
+
+.blog {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.blog img {
+  max-width: 100%;
 }
 
 @font-face {
