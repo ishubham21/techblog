@@ -199,7 +199,7 @@ nav {
 }
 
 .blog h2, .blog h4 {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .blog h4 {
@@ -211,7 +211,7 @@ nav {
 }
 
 .blog .text-content {
-  padding-bottom: 28px;
+  padding-bottom: 35px;
 }
 
 .blog .link-btn {
@@ -221,7 +221,7 @@ nav {
 
 .blog .link-btn button {
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
@@ -252,7 +252,7 @@ nav {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   .blog {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 90%;
@@ -260,10 +260,10 @@ nav {
     width: 90%;
   }
   h2 {
-    font-size: 15px;
+    font-size: 16px !important;
   }
   h4 {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }
 

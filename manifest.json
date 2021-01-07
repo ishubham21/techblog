@@ -2,7 +2,7 @@
     "name": "Shubham's Tech Blog",
     "short_name": "Tech Blog",
     "background_color": "#fff",
-    "theme_color": "#232323",
+    "theme_color": "#000",
     "description": "Technical blogs at your disposal.",
     "start_url": "index.html",
     "scope": "./",

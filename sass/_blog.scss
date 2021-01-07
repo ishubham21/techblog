@@ -22,7 +22,7 @@
     }
 
     h2, h4{
-        margin-top: 10px;
+        margin-top: 12px;
     }
 
     h4{
@@ -32,7 +32,7 @@
         }
     }
     .text-content{
-        padding-bottom: 28px;
+        padding-bottom: 35px;
     }
     .link-btn{
         display: block;
@@ -40,7 +40,7 @@
 
         button{
             position: absolute;
-            bottom: 10px;
+            bottom: 15px;
             left: 50%;
             transform: translate(-50%, 0);
             display: block;
@@ -69,15 +69,15 @@
         }
     }
 }
-@media (max-width: 767px){
+@media (max-width: 800px){
     .blog{
         flex: 0 0 90%;
         width: 90%;
     }
     h2{
-        font-size: 15px;
+        font-size: 16px!important;
     }
     h4{
-        font-size: 14px;
+        font-size: 14px!important;
     }
 }
