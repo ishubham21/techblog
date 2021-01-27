@@ -20,5 +20,5 @@ You can use this link to navigate through the website- [Blog Website](https://is
 
  * Head on to the same website mentioned above on your mobile phone.
  * In the browser settings, search for 'Add to home screen' option and tap it.
- * Choose your desired name for the app and tap 'done'.
+ * Choose your desired name for the app and tap 'done'. 
  * Web-App will be visible on your home screen.

@@ -34,7 +34,7 @@ async function getBlogData() {
 
 var blogData = getBlogData()
 blogData.then(data => {createCards(data.items)})
-.catch(err => console.log('Maybe an error has occured'))
+.catch(err => console.log('Maybe an error has occured', err))
 
 //a function to dynamically create cards
 function createCards(blogsArr){
