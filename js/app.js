@@ -38,11 +38,12 @@ blogData.then(data => {createCards(data.items)})
 
 //a function to dynamically create cards
 function createCards(blogsArr){
-
+ 
+    var output = ''
     var blogContainer = document.querySelector('.blog-container')
     blogContainer.innerHTML = ''
     for (let blog = 0; blog < blogsArr.length; blog++) {
-        blogContainer.innerHTML += `<div class="blog">
+        output += `<div class="blog">
                                         <img src="${blogsArr[blog].thumbnail}" alt="">
                                         <div class="text-content">
                                            <a href="${blogsArr[blog].link}" class="link-btn">
@@ -56,4 +57,6 @@ function createCards(blogsArr){
                                         </a>
                                     </div>`
     }
+
+    blogContainer.innerHTML = output
 }
