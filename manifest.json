@@ -1,9 +1,9 @@
 {
     "name": "Shubham's Tech Blog",
     "short_name": "Tech Blog",
-    "background_color": "#000",
-    "theme_color": "#000",
-    "description": "Technical blogs at your disposal.",
+    "background_color": "#fff",
+    "theme_color": "",
+    "description": "Technical blogs written by me all in one place.",
     "start_url": "index.html",
     "scope": "./",
     "icons": [
@@ -19,5 +19,33 @@
             "type": "image/png"
         }
     ],
-    "display": "standalone"
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "categories": [
+        "technical",
+        "education",
+        "blog",
+        "rss",
+        "medium"
+    ],
+    "related_applications": [
+        {
+            "platform": "webapp",
+            "url": "https://ishubham21.github.io/tech-blog/manifest.json"
+        }
+    ],
+    "prefer_related_applications": true,
+    "shortcuts": [
+        {
+            "name": "Infinity SknCure",
+            "url": "https://ishubham21.github.io/tech-blog/index.html",
+            "description": "Technical blogs written by me all in one place.",
+            "icons": [
+                {
+                    "src": "./imgs/logo.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
 }
